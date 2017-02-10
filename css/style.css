@@ -1,0 +1,294 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: regular;
+  color: black;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: medium;
+  text-transform: uppercase;
+  color: black;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: regular;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: regular;
+  text-transform: uppercase;
+  color: black;
+}
+b .slogan2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: medium;
+  color: black;
+}
+b .slogan3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: regular;
+  color: black;
+}
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+.main-header {
+  margin-bottom: #;
+}
+.container {
+  width: 1160px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.head-top {
+  margin-bottom: 20px;
+}
+.index-logo1 {
+  float: left;
+  min-height: 115px;
+  width: 160px;
+  margin-right: 200px;
+}
+.main-navigation {
+  float: left;
+  /* Только для оформления сетки */
+  min-height: 115px;
+  width: 440px;
+  margin-right: 200px;
+}
+.shopping-bag {
+  float: right;
+  /* Только для оформления сетки */
+  min-height: 115px;
+  width: 160px;
+}
+.header-content {
+  float: left;
+  width: 380px;
+  height: 410px;
+  margin-left: 10px;
+}
+.slides {
+  float: right;
+  width: 690px;
+  padding: 0 35px;
+}
+.head-bottom1{
+  width: 1160px;
+  height: 215px;
+}
+.choose {
+  float: left;
+  width: 260px;
+  margin-right: 140px;
+}
+.price {
+  width: 260px;
+  height: 205px;
+  margin-bottom: 60px;
+}
+.grid {
+width: 260px;
+height: 140px;
+margin-bottom: 50px;
+}
+.specifics {
+  width: 260px;
+  height: 320px;
+}
+.main-content {
+  float: left;
+}
+.sort {
+  width: 760px;
+  min-height: 20px;
+  margin-bottom: 60px;
+}
+.sample{
+  float: left;
+  height: 620px;
+  weight: 360px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+.all-samples:nth-child(2n)  {
+  margin-right: 0;
+}
+.pages {
+  float:left;
+  width: 460px;
+  min-hight: 50px;
+  margin-top:60px;
+}
+.main-footer {
+  margin-top: 60px;
+}
+.map {
+  min-height: 415px;
+  margin-bottom: 80px;
+}
+.social-network {
+  float: left;
+  min-height: 80px;
+  width: 260px;
+  margin-right: 140px;
+}
+.ending {
+  float:left;
+  min-height: 60px;
+  width: 560px;
+}
+.features-item {
+  float: left;
+  width: 300px;
+  height: 350px;
+  margin-right: 100px;
+}
+.features:last-child {
+  margin-right: 0;
+}
+.features-top {
+  margin-bottom: 85px;
+}
+.description-left {
+float: left;
+width: 660px;
+height: 530px;
+}
+.description-right {
+  float: right;
+  width: 360px;
+  height: 530px;
+}
+.client-logo {
+  width: 260px;
+  height: 180px;
+  margin-left: 40px;
+}
+.client-logos:last-child {
+  margin-right: 0;
+}
+
+
+
+
+
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > *::before {
+  color: white;
+
+  background: rgb(255, 45, 82);
+}
+
+body > * > * > * {
+  background: rgba(234, 255, 45, 0.2);
+  box-shadow: inset 0 0 0 2px rgb(234, 255, 45);
+
+}
+
+body > * > * > *::before {
+  color: black;
+
+  background: rgb(234, 255, 45);
+}
+
+.main-header::before {
+  content: ".main-header";
+}
+
+.container::before {
+  content: ".container";
+}
+
+.main-header .container::before {
+  top: auto;
+  bottom: -28px;
+}
+
+.main-navigation::before {
+  content: ".main-navigation";
+}
+
+.user-block::before {
+  content: ".user-block";
+}
