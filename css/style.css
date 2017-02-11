@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 20px;
-  font-weight: regular;
+  font-weight: 400;;
   color: black;
 }
 
@@ -10,7 +10,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 55px;
   line-height: 55px;
-  font-weight: medium;
+  font-weight: 500;
   text-transform: uppercase;
   color: black;
 }
@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
-  font-weight: regular;
+  font-weight: 400;
   line-height: 30px;
   text-transform: uppercase;
   color: black;
@@ -27,7 +27,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   line-height: 30px;
-  font-weight: regular;
+  font-weight: 400;
   text-transform: uppercase;
   color: black;
 }
@@ -35,14 +35,14 @@ b .slogan2 {
   font-family: 'Roboto', sans-serif;
   font-size: 45px;
   line-height: 45px;
-  font-weight: medium;
+  font-weight: 500;
   color: black;
 }
 b .slogan3 {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   line-height: 36px;
-  font-weight: regular;
+  font-weight: 400;
   color: black;
 }
 .clearfix::after {
@@ -74,6 +74,8 @@ b .slogan3 {
   min-height: 115px;
   width: 440px;
   margin-right: 200px;
+	list-style: none;
+
 }
 .shopping-bag {
   float: right;
@@ -99,7 +101,6 @@ b .slogan3 {
 .choose {
   float: left;
   width: 260px;
-  margin-right: 140px;
 }
 .price {
   width: 260px;
@@ -110,29 +111,40 @@ b .slogan3 {
 width: 260px;
 height: 140px;
 margin-bottom: 50px;
+list-style: none;
 }
+
 .specifics {
   width: 260px;
   height: 320px;
+  list-style: none;
 }
+
 .main-content {
-  float: left;
+  float: right;
+	width: 760px;
 }
 .sort {
   width: 760px;
   min-height: 20px;
   margin-bottom: 60px;
 }
+.all-samples {
+	display: block;
+	width: 760px;
+}
 .sample{
   float: left;
+  position: relative;
   height: 620px;
   weight: 360px;
   margin-right: 40px;
   margin-bottom: 40px;
 }
-.all-samples:nth-child(2n)  {
+.all-samples .sample:nth-child(2n)  {
   margin-right: 0;
 }
+
 .pages {
   float:left;
   width: 460px;
@@ -180,13 +192,54 @@ height: 530px;
   height: 530px;
 }
 .client-logo {
+  float: left;
   width: 260px;
   height: 180px;
   margin-left: 40px;
 }
-.client-logos:last-child {
+.client-logo:last-child {
   margin-right: 0;
 }
+.img-map {
+	width: 100%;
+}
+.hidden-block {
+  position: absolute;
+  width: 360px;
+  height: 230px;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.sedona:hover .hidden-block {
+  display: block;
+}
+.arrow-up {
+  display: inline-block;
+  background-image: url("img/arrow-up.png");
+  background-repeat: no-repeat;
+}
+.arrow-down {
+  display: inline-block;
+  background-image: url("img/arrow-down.png");
+  background-repeat: no-repeat;
+}
+.categories {
+  display: inline-block;
+}
+.client-logo img {
+  opacity: 0.2;
+}
+.client-logo img:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
 
 
 
