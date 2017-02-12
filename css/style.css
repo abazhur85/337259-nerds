@@ -61,6 +61,7 @@ b .slogan3 {
 }
 .head-top {
   margin-bottom: 20px;
+  background-color: #eeeeee;
 }
 .index-logo1 {
   float: left;
@@ -74,14 +75,38 @@ b .slogan3 {
   min-height: 115px;
   width: 440px;
   margin-right: 200px;
-	list-style: none;
-
+  background-color: #eeeeee;
+}
+.main-navigation ul {
+  list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main-navigation li {
+  display: inline-block;
+  margin-right: 40px;
+}
+.main-navigation li:last-child{
+  margin-right: 0;
+}
+.main-navigation a {
+  display: block;
+  text-decoration: none;
 }
 .shopping-bag {
   float: right;
   /* Только для оформления сетки */
   min-height: 115px;
   width: 160px;
+  background-color: #eeeeee;
+}
+.shopping-bag .cart {
+  display: inline-block;
+  background-image: url("../img/icon-basket.png");
+}
+.shopping-bag a {
+  display: inline-block;
+  text-decoration: none;
 }
 .header-content {
   float: left;
@@ -94,9 +119,17 @@ b .slogan3 {
   width: 690px;
   padding: 0 35px;
 }
-.head-bottom1{
+.slides ul {
+  list-style: none;
+}
+.slides li {
+  display: inline-block;
+}
+.head-bottom1 {
   width: 1160px;
   height: 215px;
+  background-color: #eeeeee;
+
 }
 .choose {
   float: left;
@@ -111,15 +144,17 @@ b .slogan3 {
 width: 260px;
 height: 140px;
 margin-bottom: 50px;
+}
+.grid ul {
 list-style: none;
 }
-
 .specifics {
   width: 260px;
   height: 320px;
-  list-style: none;
 }
-
+.specifics ul {
+list-style: none;
+}
 .main-content {
   float: right;
 	width: 760px;
@@ -144,12 +179,24 @@ list-style: none;
 .all-samples .sample:nth-child(2n)  {
   margin-right: 0;
 }
-
-.pages {
-  float:left;
+.paginator {
+  float: left;
   width: 460px;
   min-hight: 50px;
   margin-top:60px;
+}
+.paginator a {
+  display: inline-block;
+  min-width: 44px;
+  height: 44px;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  border: 3px solid #eeeeee;
+  background-color: #eeeeee;
+}
+.paginator .current {
+background-color: #ffffff;
 }
 .main-footer {
   margin-top: 60px;
@@ -186,10 +233,16 @@ float: left;
 width: 660px;
 height: 530px;
 }
+.description-left ul {
+list-style: none;
+}
 .description-right {
   float: right;
   width: 360px;
   height: 530px;
+}
+.description-right ul {
+list-style: none;
 }
 .client-logo {
   float: left;
@@ -214,15 +267,16 @@ height: 530px;
 }
 .sedona:hover .hidden-block {
   display: block;
+  background-color: #eeeeee;
 }
 .arrow-up {
   display: inline-block;
-  background-image: url("img/arrow-up.png");
+  background-image: url("../img/arrow-up.png");
   background-repeat: no-repeat;
 }
 .arrow-down {
   display: inline-block;
-  background-image: url("img/arrow-down.png");
+  background-image: url("..img/arrow-down.png");
   background-repeat: no-repeat;
 }
 .categories {
