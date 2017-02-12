@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;;
+  font-weight: 400;
   color: black;
 }
 
@@ -175,7 +175,7 @@ list-style: none;
   height: 350px;
   margin-right: 100px;
 }
-.features:last-child {
+.features-item:last-child {
   margin-right: 0;
 }
 .features-top {
@@ -194,8 +194,8 @@ height: 530px;
 .client-logo {
   float: left;
   width: 260px;
-  height: 180px;
-  margin-left: 40px;
+  min-height: 180px;
+  margin-right: 40px;
 }
 .client-logo:last-child {
   margin-right: 0;
@@ -234,7 +234,12 @@ height: 530px;
 .client-logo img:hover {
   opacity: 1;
 }
-
+.sort-left{
+  float:left;
+}
+.sort-right {
+  float: right;
+}
 
 
 
