@@ -61,7 +61,6 @@ b .slogan3 {
 }
 .head-top {
   margin-bottom: 20px;
-  background-color: #eeeeee;
 }
 .index-logo1 {
   float: left;
@@ -75,7 +74,6 @@ b .slogan3 {
   min-height: 115px;
   width: 440px;
   margin-right: 200px;
-  background-color: #eeeeee;
 }
 .main-navigation ul {
   list-style: none;
@@ -98,7 +96,6 @@ b .slogan3 {
   /* Только для оформления сетки */
   min-height: 115px;
   width: 160px;
-  background-color: #eeeeee;
 }
 .shopping-bag .cart {
   display: inline-block;
@@ -128,8 +125,6 @@ b .slogan3 {
 .head-bottom1 {
   width: 1160px;
   height: 215px;
-  background-color: #eeeeee;
-
 }
 .choose {
   float: left;
@@ -170,7 +165,6 @@ list-style: none;
 }
 .sample{
   float: left;
-  position: relative;
   height: 620px;
   weight: 360px;
   margin-right: 40px;
@@ -204,6 +198,18 @@ background-color: #ffffff;
 .map {
   min-height: 415px;
   margin-bottom: 80px;
+  position: relative;
+  z-index: 1;
+}
+.map .adress {
+  position: absolute;
+  width: 220px;
+  padding: 50px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+.map-makrer {
+  z-index: 3;
 }
 .social-network {
   float: left;
@@ -265,9 +271,17 @@ list-style: none;
   left: 0;
   display: none;
 }
+.sedona {
+  position: relative;
+}
 .sedona:hover .hidden-block {
   display: block;
-  background-color: #eeeeee;
+}
+.sample-price {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: 140px;
 }
 .arrow-up {
   display: inline-block;
@@ -294,7 +308,9 @@ list-style: none;
 .sort-right {
   float: right;
 }
-
+.grey {
+  background-color: #eeeeee;
+}
 
 
 
