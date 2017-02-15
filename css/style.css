@@ -115,10 +115,12 @@ b .slogan3 {
 .header-content a{
   text-decoration: none;
 }
+.head-bottom1 {
+  text-align: center;
+}
 .header1 {
   display: inline-block;
-  margin: 0 auto;
-  margin-bottom: 120px
+  margin-bottom: 120px;
 }
 .slides {
   float: right;
@@ -222,7 +224,7 @@ background-color: #ffffff;
 }
 .map .adress {
   position: absolute;
-  width: 220px;
+  width: 320px;
   padding: 50px;
   background-color: #ffffff;
   top: 55px;
@@ -232,14 +234,15 @@ background-color: #ffffff;
 .adress a {
   text-decoration: none;
 }
-.red {
-  display: inline-block;
+.adress .red {
   height: 50px;
-  min-width: 160px;
+  width: 220px;
   padding: 0 50px;
   line-height: 50px;
   text-align: center;
   vertical-align: middle;
+}
+.red {
   background-color: #fb565a;
   color: #ffffff;
 }
@@ -266,14 +269,32 @@ background-color: #ffffff;
   height: 350px;
   margin-right: 100px;
 }
+.features-item .order {
+  width: 160px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+.green {
+  background-color: #00ca74;
+}
+.yellow {
+background-color: #efc849;
+}
 .features-item a {
   text-decoration: none;
+  color: white;
 }
+
 .features-item:last-child {
   margin-right: 0;
 }
 .features-top {
   margin-bottom: 85px;
+}
+.order {
+
 }
 .description-left {
 float: left;
@@ -300,10 +321,12 @@ list-style: none;
   width: 260px;
   min-height: 180px;
   margin-right: 40px;
+  text-align: center;
 }
 .client-logo img{
-  margin: 0 auto;
+  display: inline-block;
   vertical-align: middle;
+
 }
 .client-logo:last-child {
   margin-right: 0;
