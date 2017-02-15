@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 400;
-  color: black;
+  color: #eeeeee;
 }
 
 h1 {
@@ -111,6 +111,10 @@ b .slogan3 {
   height: 410px;
   margin-left: 10px;
 }
+.header1 {
+  margin: 0 auto;
+  margin-bottom: 120px
+}
 .slides {
   float: right;
   width: 690px;
@@ -141,6 +145,8 @@ height: 140px;
 margin-bottom: 50px;
 }
 .grid ul {
+margin: 0;
+padding: 0;
 list-style: none;
 }
 .specifics {
@@ -148,6 +154,8 @@ list-style: none;
   height: 320px;
 }
 .specifics ul {
+margin: 0;
+padding: 0;
 list-style: none;
 }
 .main-content {
@@ -183,7 +191,9 @@ list-style: none;
   display: inline-block;
   min-width: 44px;
   height: 44px;
+  line-height: 44px;
   text-align: center;
+
   vertical-align: middle;
   text-decoration: none;
   border: 3px solid #eeeeee;
@@ -206,7 +216,23 @@ background-color: #ffffff;
   width: 220px;
   padding: 50px;
   background-color: #ffffff;
+  top: 55px;
+  left: 85px;
   z-index: 2;
+}
+.adress a {
+  text-decoration: none;
+}
+.red {
+  display: inline-block;
+  height: 50px;
+  min-width: 160px;
+  padding: 0 25%;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fb565a;
+  color: #ffffff;
 }
 .map-makrer {
   z-index: 3;
