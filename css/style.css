@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 300;
+  font-weight: 100;
   color: #8f8f8f;
 }
 
@@ -83,6 +83,7 @@ b .slogan3 {
 .main-navigation li {
   display: inline-block;
   margin-right: 40px;
+  color: black;
 }
 .main-navigation li:last-child{
   margin-right: 0;
@@ -110,6 +111,9 @@ b .slogan3 {
   width: 380px;
   height: 410px;
   margin-left: 10px;
+}
+.header-content a{
+  text-decoration: none;
 }
 .header1 {
   display: inline-block;
@@ -167,6 +171,10 @@ list-style: none;
   width: 760px;
   min-height: 20px;
   margin-bottom: 60px;
+}
+.sort-right a {
+  text-decoration: none;
+  color: inherit;
 }
 .all-samples {
 	display: block;
@@ -236,6 +244,7 @@ background-color: #ffffff;
   color: #ffffff;
 }
 .map-makrer {
+  position: absolute;
   left: 645px;
   top: 90px;
   z-index: 3;
@@ -256,6 +265,9 @@ background-color: #ffffff;
   width: 300px;
   height: 350px;
   margin-right: 100px;
+}
+.features-item a {
+  text-decoration: none;
 }
 .features-item:last-child {
   margin-right: 0;
@@ -279,11 +291,19 @@ list-style: none;
 .description-right ul {
 list-style: none;
 }
+.client-logos {
+  border-top: 2px solid #8f8f8f;
+  border-bottom: 2px solid #8f8f8f;
+}
 .client-logo {
   float: left;
   width: 260px;
   min-height: 180px;
   margin-right: 40px;
+}
+.client-logo img{
+  margin: 0 auto;
+  vertical-align: middle;
 }
 .client-logo:last-child {
   margin-right: 0;
