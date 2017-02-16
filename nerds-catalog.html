@@ -47,10 +47,10 @@
 
    <section class="price">
      <h3>Стоимость</h3>
-    <label for="price1">От</label>
-<input type="text" name="bottom-price" id="price1">
-     <label for="price2">До</label>
-<input type="text" name="top-price" id="price2">
+    <div class="from"><label for="price1">От</label>
+<input type="text" name="bottom-price" id="price1"></div>
+     <div class="up-to"><label for="price2">До</label>
+<input type="text" name="top-price" id="price2"></div>
 </section>
 
 <section class="grid">
@@ -80,7 +80,7 @@
       <label for="slpec5">Корзина</label></li>
 </ul>
 </section>
-<button type="submit">Показать</button>
+<button type="submit" class="show">Показать</button>
 </form>
 </div>
 
@@ -104,7 +104,11 @@
     <div class="sedona-price red"><a href="#" type="btn">9900 Руб.</a></div>
   </div>
 </div>
+<div class="samples-all">
   <div class="sample">
+    <div class="sample-head">
+<div class="sample-circle"></div><div class="sample-circle"></div><div class="sample-circle"></div>
+    </div>
   <img src="img/pink.png" width="360px" height="576px" alt="pink"></div>
   <div class="sample">
   <img src="img/barbershop.jpg" width="360px" height="576px" alt="barbershop"></div>
@@ -114,7 +118,7 @@
   <img src="img/aplus.jpg" width="360px" height="576px" alt="aplus"></div>
   <div class="sample">
   <img src="img/kvast.jpg" width="360px" height="576px" alt="kvast"></div>
-  <div class="hidden-block grey">
+  </div>
 <div class="paginator">
   <a class="btn" class="current">1</a>
   <a href="#" class="btn">2</a>
