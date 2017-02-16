@@ -137,6 +137,12 @@ b .slogan3 {
   width: 1160px;
   height: 215px;
 }
+.knowmore {
+  width: 240px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
 .choose {
   float: left;
   width: 260px;
@@ -165,8 +171,9 @@ margin: 0;
 padding: 0;
 list-style: none;
 }
-.statistics li {
-  display: inline-block;
+.percent {
+  display: block;
+  float: left;
   width: 100px;
   margin-right: 20px;
 }
@@ -326,24 +333,13 @@ list-style: none;
 list-style: none;
 }
 .client-logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   border-top: 2px solid #8f8f8f;
   border-bottom: 2px solid #8f8f8f;
 }
-.client-logo {
-  float: left;
-  width: 260px;
-  min-height: 180px;
-  margin-right: 40px;
-  text-align: center;
-}
-.client-logo img{
-  display: inline-block;
-  line-height: 180px;
-  vertical-align: middle;
-}
-.client-logo:last-child {
-  margin-right: 0;
-}
+
 .img-map {
 	width: 100%;
 }
@@ -363,9 +359,10 @@ list-style: none;
   display: block;
 }
 .sample-price {
-  width: 200px;
-  height: 50px;
-  margin: 0 auto;
+  width: 240px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
   margin-top: 140px;
 }
 .arrow-up {
