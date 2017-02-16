@@ -10,8 +10,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 55px;
   line-height: 55px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: normal;
   color: black;
 }
 
@@ -35,7 +34,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 45px;
   line-height: 45px;
-  font-weight: bold;
+  font-weight: normal;
   color: black;
 }
 .ending b {
@@ -113,13 +112,20 @@ h3 {
   height: 410px;
   margin-left: 10px;
 }
-.header-text {
+.header-content .header-text {
   width: 380px;
   height: 170px;
   margin-bottom: 45px;
 }
-.header-content a {
+.knowmore {
+  width: 240px;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+.knowmore a {
   text-decoration: none;
+  color: #ffffff;
 }
 .head-bottom1 {
   text-align: center;
@@ -142,13 +148,6 @@ h3 {
 .head-bottom1 {
   width: 1160px;
   height: 215px;
-}
-.knowmore {
-  width: 240px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  color: #ffffff;
 }
 .choose {
   float: left;
@@ -187,6 +186,7 @@ list-style: none;
   margin-right: 0;
 }
 .statistics span{
+  display: inline-block;
   font-size: 45px;
   line-height: 45px;
   color: #000000;
@@ -249,7 +249,7 @@ background-color: #ffffff;
 }
 .map .adress {
   position: absolute;
-  width: 320px;
+  width: 220px;
   padding: 50px;
   background-color: #ffffff;
   top: 55px;
@@ -262,6 +262,7 @@ background-color: #ffffff;
 .adress p {
   display: inline-block;
   width: 200px;
+  margin-bottom: 45px;
 }
 .adress .red {
   display: inline-block;
@@ -273,9 +274,8 @@ background-color: #ffffff;
 }
 .red {
   background-color: #fb565a;
-  color: #ffffff;
 }
-.map-makrer {
+.map-marker {
   position: absolute;
   left: 645px;
   top: 90px;
@@ -286,6 +286,25 @@ background-color: #ffffff;
   min-height: 80px;
   width: 260px;
   margin-right: 140px;
+}
+.social {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 5px;
+  background-color: #e1e1e1;
+}
+.vk {
+  background-image: url("../img/vk-icon.png")no-repeat 50% 50%;
+}
+.fc {
+  background-image: url("../img/fc-icon.png")no-repeat 50% 50%;
+}
+.in {
+  background-image: url("../img/insta-icon.png")no-repeat 50% 50%;
+}
+.social:last-child {
+  margin-right: 0;
 }
 .ending {
   float:left;
@@ -360,6 +379,14 @@ list-style: none;
   bottom: 0;
   left: 0;
   display: none;
+  text-align: center;
+}
+.hidden-text {
+  display: inline-block;
+  width: 200px;
+  height: 70px;
+  margin-bottom: 35px;
+  text-align: center;
 }
 .sedona {
   position: relative;
@@ -367,7 +394,7 @@ list-style: none;
 .sedona:hover .hidden-block {
   display: block;
 }
-.sample-price {
+.sedona-price {
   width: 240px;
   line-height: 50px;
   text-align: center;
@@ -380,11 +407,12 @@ list-style: none;
   height: 10px;
   margin-right: 20px;
 }
+.arrow .down {
+  background-image: url("../img/arrow-down.png")no-repeat 50% 50%;
+  margin-left: 45px;
+}
 .arrow .up {
   background-image: url("../img/arrow-up.png")no-repeat 50% 50%;
-}
-.arrow .down {
-  background-image: url("..img/arrow-down.png")no-repeat 50% 50%;
   margin-right: 0;
 }
 .categories {
