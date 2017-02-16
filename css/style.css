@@ -31,18 +31,18 @@ h3 {
   text-transform: uppercase;
   color: black;
 }
-b .slogan2 {
+.description-left b {
   font-family: 'Roboto', sans-serif;
   font-size: 45px;
   line-height: 45px;
-  font-weight: 500;
+  font-weight: bold;
   color: black;
 }
-b .slogan3 {
+.ending b {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
   line-height: 36px;
-  font-weight: 400;
+  font-weight: bold;
   color: black;
 }
 .clearfix::after {
@@ -101,6 +101,7 @@ b .slogan3 {
 .shopping-bag .cart {
   display: inline-block;
   background-image: url("../img/icon-basket.png");
+  background-repeat: no-repeat;
 }
 .shopping-bag a {
   display: inline-block;
@@ -112,7 +113,12 @@ b .slogan3 {
   height: 410px;
   margin-left: 10px;
 }
-.header-content a{
+.header-text {
+  width: 380px;
+  height: 170px;
+  margin-bottom: 45px;
+}
+.header-content a {
   text-decoration: none;
 }
 .head-bottom1 {
@@ -142,6 +148,7 @@ b .slogan3 {
   line-height: 50px;
   text-align: center;
   vertical-align: middle;
+  color: #ffffff;
 }
 .choose {
   float: left;
@@ -172,12 +179,11 @@ padding: 0;
 list-style: none;
 }
 .percent {
-  display: block;
   float: left;
   width: 100px;
   margin-right: 20px;
 }
-.statistics li:last-child{
+.percent:last-child{
   margin-right: 0;
 }
 .statistics span{
@@ -336,6 +342,9 @@ list-style: none;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 50px;
   border-top: 2px solid #8f8f8f;
   border-bottom: 2px solid #8f8f8f;
 }
@@ -365,15 +374,18 @@ list-style: none;
   vertical-align: middle;
   margin-top: 140px;
 }
-.arrow-up {
+.arrow {
   display: inline-block;
-  background-image: url("../img/arrow-up.png");
-  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  margin-right: 20px;
 }
-.arrow-down {
-  display: inline-block;
-  background-image: url("..img/arrow-down.png");
-  background-repeat: no-repeat;
+.arrow .up {
+  background-image: url("../img/arrow-up.png")no-repeat 50% 50%;
+}
+.arrow .down {
+  background-image: url("..img/arrow-down.png")no-repeat 50% 50%;
+  margin-right: 0;
 }
 .categories {
   display: inline-block;
