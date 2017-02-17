@@ -47,11 +47,26 @@
 
    <section class="price">
      <h3>Стоимость</h3>
-    <div class="from"><label for="price1">От</label>
-<input type="text" name="bottom-price" id="price1"></div>
-     <div class="up-to"><label for="price2">До</label>
-<input type="text" name="top-price" id="price2"></div>
+
+<div class="range-filter">
+<div class="range-controls">
+  <div class="scale">
+              <div class="bar"></div>
+            </div>
+            <div class="toggle toggle-min"></div>
+          <div class="toggle toggle-max"></div>
+        </div>
+<div class="price-controls">
+<label for="price1">От</label>
+<input type="text" name="min-price" id="price1" value="0">
+<label for="price2">До</label>
+<input type="text" name="top-price" id="price2" value="1500">
+</div>
+</div>
 </section>
+
+
+
 
 <section class="grid">
   <h3>Сетка</h3>
@@ -97,6 +112,9 @@
 </div>
 <div class="all-samples clearfix">
   <div class="sample sedona">
+    <div class="sample-head">
+<div class="sample-circle"></div><div class="sample-circle"></div><div class="sample-circle"></div>
+    </div>
   <img src="img/sedona.jpg" width="360px" height="576px" alt="sedona">
   <div class="hidden-block grey">
     <div class="hidden-text"><h3>Sedona</h3>
@@ -106,13 +124,21 @@
 </div>
 <div class="samples-all">
   <div class="sample">
-    <div class="sample-head">
+  <div class="sample-head">
 <div class="sample-circle"></div><div class="sample-circle"></div><div class="sample-circle"></div>
     </div>
   <img src="img/pink.png" width="360px" height="576px" alt="pink"></div>
+
   <div class="sample">
+    <div class="sample-head">
+<div class="sample-circle"></div><div class="sample-circle"></div><div class="sample-circle"></div>
+    </div>
   <img src="img/barbershop.jpg" width="360px" height="576px" alt="barbershop"></div>
+
   <div class="sample">
+    <div class="sample-head">
+<div class="sample-circle"></div><div class="sample-circle"></div><div class="sample-circle"></div>
+    </div>
   <img src="img/mishka.jpg" width="360px" height="576px" alt="mishka"></div>
   <div class="sample">
   <img src="img/aplus.jpg" width="360px" height="576px" alt="aplus"></div>

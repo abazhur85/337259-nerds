@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: normal;
@@ -96,7 +96,7 @@ h3 {
 }
 .shopping-bag .cart {
   display: inline-block;
-  background-image: url("/img/icon-basket.png");
+  background-image: url("img/icon-basket.png");
   background-repeat: no-repeat;
 }
 .shopping-bag a {
@@ -154,8 +154,44 @@ h3 {
 }
 .price {
   width: 260px;
-  height: 205px;
   margin-bottom: 60px;
+}
+.range-filter {
+  width: 260px;
+}
+.range-controls {
+  position: relative;
+  height: 80px;
+  border-radius: 5px;
+  background: #f1f1f1;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.range-controls .scale {
+  margin-top: 39px;
+  height: 2px;
+  background-color: #d7dcde;
+}
+.range-controls .bar {
+width: 70%;
+height: 2px;
+background: #00ca74;
+}
+.range-controls .toggle {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  width: 4px;
+  height: 4px;
+  border: 8px solid white;
+  background: #ababab;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  cursor: pointer;
+}
+.range-controls .max-taggle {
+  left: 160px;
 }
 .grid {
 width: 260px;
@@ -167,13 +203,23 @@ margin: 0;
 padding: 0;
 list-style: none;
 }
-input[type="text"] {
-  width: 80px;
+.price-controls input {
+  width: 60px;
   height: 40px;
+  padding: 8px 10px;
+  margin-left: 10px;
   background-color: #eeeeee;
+  font-size: 16px;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
 }
-.from {
+.price-controls .min-price {
   margin-right: 30px;
+}
+.price-controls {
+  white-space: nowrap;
 }
 .show {
   display: inline-block;
@@ -325,13 +371,13 @@ background-color: #ffffff;
   background-color: #e1e1e1;
 }
 .vk {
-  background-image: url("/img/vk-icon.png")no-repeat 50% 50%;
+  background-image: url("img/vk-icon.png")no-repeat 50% 50%;
 }
 .fc {
-  background-image: url("/img/fc-icon.png")no-repeat 50% 50%;
+  background-image: url("img/fc-icon.png")no-repeat 50% 50%;
 }
 .in {
-  background-image: url("/img/insta-icon.png")no-repeat 50% 50%;
+  background-image: url("img/insta-icon.png")no-repeat 50% 50%;
 }
 .social:last-child {
   margin-right: 0;
@@ -438,11 +484,11 @@ list-style: none;
   margin-right: 20px;
 }
 .arrow .down {
-  background-image: url("/img/arrow-down.png")no-repeat 50% 50%;
+  background-image: url("img/arrow-down.png")no-repeat 50% 50%;
   margin-left: 45px;
 }
 .arrow .up {
-  background-image: url("/img/arrow-up.png")no-repeat 50% 50%;
+  background-image: url("img/arrow-up.png")no-repeat 50% 50%;
   margin-right: 0;
 }
 .categories {
