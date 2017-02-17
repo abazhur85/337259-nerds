@@ -105,27 +105,7 @@ h3 {
   color: #000000;
   vertical-align: middle;
 }
-.header-content {
-  float: left;
-  width: 380px;
-  height: 410px;
-  margin-left: 10px;
-}
-.header-content .header-text {
-  width: 380px;
-  height: 170px;
-  margin-bottom: 45px;
-}
-.knowmore {
-  width: 240px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: middle;
-}
-.knowmore a {
-  text-decoration: none;
-  color: #ffffff;
-}
+
 .head-bottom1 {
   text-align: center;
 }
@@ -133,16 +113,95 @@ h3 {
   display: inline-block;
   margin-bottom: 120px;
 }
-.slides {
-  float: right;
-  width: 690px;
-  padding: 0 35px;
+.slider {
+  position: relative;
+  width: 1160px;
+  height: 430px;
+  margin: 0 auto;
 }
-.slides ul {
-  list-style: none;
+.slider input[type=radio] {
+  position: absolute;
+  opacity: 0;
 }
-.slides li {
+.slider-controls {
+  position: absolute;
+  width: 160px;
+  height: 20px;
+  bottom: 95px;
+  left: 50%;
+  margin:-80px;
+  text-align: center;
+  z-index: 5;
+}
+.slider-controls label {
   display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin: 0 3px;
+  background: white;
+  border: 3px solid white;
+  vertical-align: top;
+  cursor: pointer;
+  border-radius: 50%;
+}
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-1:checked ~ .slider-controls label[for="btn-2"],
+#btn-1:checked ~ .slider-controls label[for="btn-3"] {
+  background: #c1c1c1;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.slide:nth-child(1) {
+  background-image: url('img/slide1.png');
+  background-repeat: no-repeat;
+  background-position: 100% 10px;
+}
+.slide:nth-child(2) {
+  background-image: url('img/slide2.png');
+  background-repeat: no-repeat;
+  background-position: 100% 10px;
+}
+.slide:nth-child(3) {
+  background-image: url('img/slide3.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+.slide {
+  display: none;
+}
+#btn-1:checked ~ .slides .slide:nth-child(1) {
+  display: block;
+}
+#btn-2:checked ~ .slides .slide:nth-child(2) {
+  display: block;
+}
+#btn-3:checked ~ .slides .slide:nth-child(3) {
+  display: block;
+}
+.slide:nth-child(1) {
+  display: block;
+}
+.slide-text {
+  width: 380px;
+  color: #283136;
+}
+.knowmore {
+  width: 240px;
+  line-height: 50px;
+  text-align: center;
+  margin-top: 45px;
+  border-radius: 3px;
+}
+.knowmore a {
+  text-decoration: none;
+  vertical-align: middle;
+  color: #ffffff;
 }
 .head-bottom1 {
   width: 1160px;
@@ -345,7 +404,7 @@ background-color: #ffffff;
   width: 220px;
   line-height: 50px;
   text-align: center;
-  vertical-align: middle;
+  border-radius: 3px;
 }
 .red {
   background-color: #fb565a;
@@ -399,6 +458,7 @@ background-color: #ffffff;
   text-align: center;
   vertical-align: middle;
   color: white;
+  border-radius: 3px;
 }
 .green {
   background-color: #00ca74;
