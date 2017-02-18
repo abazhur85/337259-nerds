@@ -504,7 +504,16 @@ list-style: none;
   border-top: 2px solid #8f8f8f;
   border-bottom: 2px solid #8f8f8f;
 }
-
+.client-logos img {
+  opacity: 0.2;
+}
+.client-logos img:hover {
+  opacity: 1;
+}
+.border-logo {
+  width: 3px;
+  height: 50px;
+}
 .img-map {
 	width: 100%;
 }
@@ -554,12 +563,6 @@ list-style: none;
 }
 .categories {
   display: inline-block;
-}
-.client-logos img {
-  opacity: 0.2;
-}
-.client-logo img:hover {
-  opacity: 1;
 }
 .sort-left{
   float:left;
