@@ -96,6 +96,8 @@ h3 {
 }
 .shopping-bag .cart {
   display: inline-block;
+  width: 20px;
+  height: 20px;
   background: url('../img/icon-basket.png') no-repeat 50% 50%;
 }
 .shopping-bag a {
@@ -245,8 +247,8 @@ background: #00ca74;
   box-shadow: 0 2px 1px 0 #cfcfcf;
   cursor: pointer;
 }
-.range-controls .max-taggle {
-  right: 160px;
+.range-controls .toggle-max {
+  left: 160px;
 }
 .grid {
 width: 260px;
@@ -269,12 +271,16 @@ list-style: none;
   font-weight: 300;
   font-style: normal;
   text-align: center;
+  border-radius: 3px;
 }
 .price-controls .min-price {
   margin-right: 30px;
 }
 .price-controls {
   white-space: nowrap;
+}
+.capital{
+  text-transform: uppercase;
 }
 .show {
   display: inline-block;
@@ -412,7 +418,6 @@ background-color: #ffffff;
   position: absolute;
   left: 645px;
   top: 90px;
-  background: url('../img/map-marker.png')no-repeat 50% 50%;
   z-index: 3;
 }
 .social-network {
@@ -548,18 +553,21 @@ list-style: none;
 }
 .arrow {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   margin-right: 20px;
 }
-.arrow .down {
+.sort-right .down {
   background: url('../img/arrow-down.png')no-repeat 50% 50%;
-  margin-left: 45px;
-}
-.arrow .up {
-  background: url('../img/arrow-up.png')no-repeat 50% 50%;
   margin-right: 0;
+  opacity: 1;
 }
+.sort-right .up {
+  background: url('../img/arrow-up.png')no-repeat 50% 50%;
+  margin-left: 45px;
+  opacity: 0.2;
+}
+
 .categories {
   display: inline-block;
 }
