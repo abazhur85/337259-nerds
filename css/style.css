@@ -390,6 +390,7 @@ background-color: #ffffff;
 }
 .adress a {
   text-decoration: none;
+  color: white;
 }
 .adress p {
   display: inline-block;
