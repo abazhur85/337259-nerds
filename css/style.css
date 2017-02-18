@@ -546,7 +546,6 @@ list-style: none;
 }
 .arrow .down {
   background: url('../img/arrow-down.png')no-repeat 50% 50%;
-
   margin-left: 45px;
 }
 .arrow .up {
@@ -556,7 +555,7 @@ list-style: none;
 .categories {
   display: inline-block;
 }
-.client-logo img {
+.client-logos img {
   opacity: 0.2;
 }
 .client-logo img:hover {
