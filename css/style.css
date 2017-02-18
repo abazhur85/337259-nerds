@@ -96,8 +96,7 @@ h3 {
 }
 .shopping-bag .cart {
   display: inline-block;
-  background-image: url('../img/icon-basket.png');
-  background-repeat: no-repeat;
+  background: url('../img/icon-basket.png') no-repeat 50% 50%;
 }
 .shopping-bag a {
   display: inline-block;
@@ -414,6 +413,7 @@ background-color: #ffffff;
   position: absolute;
   left: 645px;
   top: 90px;
+  background: url('../img/map-marker.png')no-repeat 50% 50%;
   z-index: 3;
 }
 .social-network {
@@ -428,16 +428,15 @@ background-color: #ffffff;
   height: 80px;
   border-radius: 50%;
   margin-right: 5px;
-  background-color: #e1e1e1;
 }
 .vk {
-  background-image: url('../img/vk-icon.png') no-repeat 50% 50%;
+  background: #e1e1e1 url('../img/vk-icon.png') no-repeat 50% 50%;
 }
-.fc {
-  background-image: url('../img/fc-icon.png')no-repeat 50% 50%;
+.fb {
+  background: #e1e1e1 url('../img/fb-icon.png')no-repeat 50% 50%;
 }
 .in {
-  background-image: url('../img/insta-icon.png')no-repeat 50% 50%;
+  background: #e1e1e1 url('../img/insta-icon.png')no-repeat 50% 50%;
 }
 .social:last-child {
   margin-right: 0;
@@ -546,11 +545,12 @@ list-style: none;
   margin-right: 20px;
 }
 .arrow .down {
-  background-image: url('../img/arrow-down.png')no-repeat 50% 50%;
+  background: url('../img/arrow-down.png')no-repeat 50% 50%;
+
   margin-left: 45px;
 }
 .arrow .up {
-  background-image: url('../img/arrow-up.png')no-repeat 50% 50%;
+  background: url('../img/arrow-up.png')no-repeat 50% 50%;
   margin-right: 0;
 }
 .categories {
