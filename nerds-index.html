@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Nerd's Design Studio</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+    <link href="https://fonts.google.com/specimen/Roboto" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
 <body>
@@ -22,7 +23,7 @@
               <a href="#">Клиенты</a>
             </li>
             <li>
-              <a href="#">Магазин</a>
+              <a href="https://htmlacademy-htmlcss.github.io/337259-nerds/4/nerds-catalog.html">Магазин</a>
             </li>
             <li>
               <a href="#">Контакты</a>
@@ -36,16 +37,15 @@
      </section>
     <section class="head-bottom clearfix">
           <div class="slider">
-            <input type="radio" id="btn-1" name="toggle" checked>
-            <input type="radio" id="btn-2" name="toggle">
-            <input type="radio" id="btn-3" name="toggle">
+            <input type="radio" id="btn-1" name="slider-check" checked>
+            <input type="radio" id="btn-2" name="slider-check">
+            <input type="radio" id="btn-3" name="slider-check">
 
             <div class="slider-controls">
               <label for="btn-1"></label>
               <label for="btn-2"></label>
               <label for="btn-3"></label>
               </div>
-
 <div class="slides">
   <div class="slide">
     <div class="slide-text">
@@ -53,25 +53,23 @@
 <p> Математически выверенный дизайн для вашего сайта
    или мобильного приложения.</p>
    <div class="knowmore red"><a href="#" class="btn">Узнать больше</a></div>
-</div>
-
+</div></div>
+<div class="slide">
 <div class="slide-text">
 <div class="slide-title"><h1>Любим математику как никто другой</h1></div>
   <p>Никакого креатива, только математические формулы
    для расчета идеальной пропорции.</p>
 <div class="knowmore red"><a href="#" class="btn">Узнать больше</a></div>
-</div>
-
+</div></div>
+<div class="slide">
 <div class="slide-text">
 <div class="slide-title"><h1>Только ночь, только хардкор</h1></div>
-  <p>аботать днем, как все? Мы против этого.
+  <p>Работать днем, как все? Мы против этого.
 Ближе к полуночи работа только начинается.</p>
 <div class="knowmore red"><a href="#" class="btn">Узнать больше</a></div>
 </div>
-
 </div>
 </div>
-    </div>
          </div>
        </section>
  </div>
@@ -111,11 +109,11 @@
 Ставим математический расчет превыше креатива.
 Работаем не покладая рук, как роботы.</p>
 <h3>Выполняем заказы на разработку:</h3>
-<ul>
-  <li> Веб-сайтов любой сложности</li>
+<ul class="orders">
+  <li>Веб-сайтов любой сложности</li>
   <li>Мобильных приложений для iOS и Android</li>
   <li>Слайдшоу и видео для корпоративных презентаций</li>
-<ul class="orders">
+</ul>
 </div>
 
 <div class="description-right">
@@ -131,10 +129,14 @@
 </section>
 
 <section class="client-logos">
-  <img src="img/html-logo.png" width="" height="" alt="logo.htmlacademy">
-  <img src="img/borodinsky-logo.png" width="" height="" alt="logo.borodinski">
-  <img src="img/pink-logo.png" width="" height="" alt="logo.pink">
-  <img src="img/mishka-logo.png" width="" height="" alt="logo.mishka">
+  <div class="border-logo">
+    <img src="img/html-logo.png" width="" height="" alt="logo.htmlacademy"></div>
+  <div class="border-logo">
+  <img src="img/borodinsky-logo.png" width="" height="" alt="logo.borodinski"></div>
+ <div class="border-logo">
+  <img src="img/pink-logo.png" width="" height="" alt="logo.pink"></div>
+  <div class="border-logo">
+  <img src="img/mishka-logo.png" width="" height="" alt="logo.mishka"></div>
 </section>
 </main>
 
@@ -150,17 +152,15 @@
 <a href="#" class="btn red">Напишите нам</a>
 </div>
 <div class="map-marker">
-  <img src="../img/map-marker.png" width="230px" height="190px" alt="map-marker">
+  <img src="img/map-marker.png" width="230px" height="190px" alt="map-marker">
 </div>
 </div>
 <section class="footer-details clearfix">
     <div class="social-network">
-   <div class="social vk"><a href="#">
-     <img src="#" alt="VKontakte"></a></div>
-     <div class="social fc"><a href="#">
-     <img src="#" alt="Facebook"></a></div>
+   <div class="social vk"><a href="#"></a></div>
+     <div class="social fb"><a href="#"></a></div>
      <a href="#">
-     <div class="social in"><img src="#" alt="Instagram"></a></div>
+     <div class="social in"></a></div>
    </div>
 
 <div class="ending">
@@ -168,6 +168,5 @@
   <p>Скидка 10% для друзей из социальных сетей.</p>
 </div>
 </section>
-</container>
 </footer>
 </body>
