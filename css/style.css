@@ -75,6 +75,7 @@ h3 {
   list-style: none;
     margin: 0;
     padding: 0;
+    margin-top: 30px;
 }
 .main-navigation li {
   display: inline-block;
@@ -87,12 +88,12 @@ h3 {
   text-decoration: none;
   color: #000000;
   vertical-align: middle;
-  margin-top: 10px;
 }
 .shopping-bag {
   float: right;
   height: 115px;
   width: 160px;
+  margin-top: 30px;
 }
 .shopping-bag .cart {
   display: inline-block;
@@ -100,14 +101,12 @@ h3 {
   height: 20px;
   background: url('../img/icon-basket.png') no-repeat 50% 50%;
   margin-right: 20px;
-  margin-top: 30px;
   vertical-align: middle;
 }
 .shopping-bag a {
   text-decoration: none;
   color: #000000;
   vertical-align: middle;
-  margin-top: 30px;
 }
 
 .head-bottom1 {
@@ -165,7 +164,7 @@ h3 {
 .slide:nth-child(1) {
   background-image: url('../img/slide1.png');
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: 100% 20px;
 }
 .slide:nth-child(2) {
   background-image: url('../img/slide2.png');
@@ -175,7 +174,7 @@ h3 {
 .slide:nth-child(3) {
   background-image: url('../img/slide3.png');
   background-repeat: no-repeat;
-  background-position: 100% 0;
+  background-position: 100% 20px;
 }
 
 #btn-1:checked ~ .slides .slide:nth-child(1) {
@@ -295,6 +294,7 @@ list-style: none;
   border: none;
   color: #000000;
   background-color: #eeeeee;
+  text-transform: uppercase;
 }
 .specifics {
   width: 260px;
