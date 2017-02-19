@@ -84,14 +84,14 @@ h3 {
   margin-right: 0;
 }
 .main-navigation a {
-  display: block;
   text-decoration: none;
   color: #000000;
   vertical-align: middle;
+  margin-top: 10px;
 }
 .shopping-bag {
   float: right;
-  min-height: 115px;
+  height: 115px;
   width: 160px;
 }
 .shopping-bag .cart {
@@ -99,12 +99,15 @@ h3 {
   width: 20px;
   height: 20px;
   background: url('../img/icon-basket.png') no-repeat 50% 50%;
+  margin-right: 20px;
+  margin-top: 30px;
+  vertical-align: middle;
 }
 .shopping-bag a {
-  display: inline-block;
   text-decoration: none;
   color: #000000;
   vertical-align: middle;
+  margin-top: 30px;
 }
 
 .head-bottom1 {
@@ -271,7 +274,8 @@ list-style: none;
   font-weight: 300;
   font-style: normal;
   text-align: center;
-  border-radius: 3px;
+  border-radius: 5px;
+  border: none;
 }
 .price-controls .min-price {
   margin-right: 30px;
@@ -287,6 +291,8 @@ list-style: none;
   width: 260px;
   height: 45px;
   text-align: center;
+  border-radius: 5px;
+  border: none;
   color: #000000;
   background-color: #eeeeee;
 }
@@ -323,8 +329,14 @@ list-style: none;
   margin-bottom: 60px;
 }
 .sort-right a {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
+  margin-top: 60px;
+  margin-right: 25px;
+}
+.sort-left {
+	margin-top: 40px;
 }
 .all-samples {
 	display: block;
@@ -556,6 +568,7 @@ list-style: none;
   width: 12px;
   height: 12px;
   margin-right: 20px;
+  margin-top: 60px;
 }
 .sort-right .down {
   background: url('../img/arrow-down.png')no-repeat 50% 50%;
