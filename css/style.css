@@ -405,10 +405,11 @@ list-style: none;
   border-radius: 3px;
   background-color: #eeeeee;
   color: #000000;
-  text-transform: capitalize;
+  margin-right: 13px;
 }
 .paginator a:last-child{
-  padding: 10px 80px;
+  padding: 5px 70px;
+  text-transform: capitalize;
 }
 .paginator .current {
 background-color: #ffffff;
@@ -563,10 +564,10 @@ list-style: none;
 }
 .hidden-block {
   position: absolute;
-  width: 360px;
-  height: 230px;
+  width: 200px;
+  height: 160px;
   z-index: 10;
-  bottom: 0;
+  bottom: 5px;
   left: 0;
   display: none;
   text-align: center;
