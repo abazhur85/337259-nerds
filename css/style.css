@@ -149,8 +149,8 @@ h3 {
   border-radius: 50%;
 }
 #btn-1:checked ~ .slider-controls label[for="btn-1"],
-#btn-1:checked ~ .slider-controls label[for="btn-2"],
-#btn-1:checked ~ .slider-controls label[for="btn-3"] {
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
   background: #c1c1c1;
 }
 .slide {
@@ -395,9 +395,9 @@ list-style: none;
 }
 .paginator a {
   display: inline-block;
-  min-width: 44px;
-  height: 44px;
-  line-height: 44px;
+  min-width: 34px;
+  height: 34px;
+  line-height: 34px;
   vertical-align: middle;
   text-align: center;
   text-decoration: none;
@@ -578,11 +578,12 @@ list-style: none;
 }
 .hidden-block a {
   display: inline-block;
-  width: 240px;
+  padding: 0 60px;
   line-height: 50px;
   text-align: center;
   text-decoration: none;
   color: white;
+  border-radius: 5px;
 }
 .sedona {
   position: relative;
