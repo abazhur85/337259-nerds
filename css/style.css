@@ -23,7 +23,7 @@ h2 {
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 18px;
   font-weight: bold;
   text-transform: uppercase;
   color: black;
@@ -332,11 +332,7 @@ list-style: none;
   display: inline-block;
   text-decoration: none;
   color: inherit;
-  margin-top: 60px;
   margin-right: 25px;
-}
-.sort-left {
-	margin-top: 40px;
 }
 .all-samples {
 	display: block;
@@ -568,7 +564,6 @@ list-style: none;
   width: 12px;
   height: 12px;
   margin-right: 20px;
-  margin-top: 60px;
 }
 .sort-right .down {
   background: url('../img/arrow-down.png')no-repeat 50% 50%;
