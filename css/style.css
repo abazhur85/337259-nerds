@@ -165,12 +165,12 @@ h3 {
 .slide:nth-child(1) {
   background-image: url('../img/slide1.png');
   background-repeat: no-repeat;
-  background-position: 100% 10px;
+  background-position: 100% 0;
 }
 .slide:nth-child(2) {
   background-image: url('../img/slide2.png');
   background-repeat: no-repeat;
-  background-position: 100% 10px;
+  background-position: 100% 0;
 }
 .slide:nth-child(3) {
   background-image: url('../img/slide3.png');
