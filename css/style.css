@@ -16,7 +16,7 @@ h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 24px;
   text-transform: uppercase;
   color: black;
 }
@@ -49,7 +49,7 @@ h3 {
   clear: both;
 }
 .main-header {
-  margin-bottom: #;
+  margin-bottom: 60px;
 }
 .container {
   width: 1160px;
@@ -367,7 +367,7 @@ list-style: none;
   background-color: #e9e9e9;
   padding: 15px;
   border-top-right-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 .sample-circle {
   display: inline-block;
@@ -401,14 +401,14 @@ list-style: none;
   vertical-align: middle;
   text-align: center;
   text-decoration: none;
-  border: 3px solid #eeeeee;
+  border: 5px solid #eeeeee;
   border-radius: 3px;
   background-color: #eeeeee;
   color: #000000;
   text-transform: capitalize;
 }
 .paginator a:last-child{
-  padding: 20px 80px;
+  padding: 10px 80px;
 }
 .paginator .current {
 background-color: #ffffff;
@@ -570,26 +570,24 @@ list-style: none;
   left: 0;
   display: none;
   text-align: center;
+  padding: 35px 80px;
 }
 .hidden-text {
-  display: inline-block;
-  width: 200px;
-  height: 70px;
   margin-bottom: 35px;
+}
+.hidden-block a {
+  display: inline-block;
+  width: 240px;
+  line-height: 50px;
   text-align: center;
+  text-decoration: none;
+  color: white;
 }
 .sedona {
   position: relative;
 }
 .sedona:hover .hidden-block {
   display: block;
-}
-.sedona-price {
-  width: 240px;
-  line-height: 50px;
-  text-align: center;
-  vertical-align: middle;
-  margin-top: 140px;
 }
 .arrow {
   display: inline-block;
