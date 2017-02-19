@@ -420,7 +420,7 @@ list-style: none;
   margin-right: 13px;
 }
 .paginator a:last-child{
-  padding: 3px 70px;
+  padding: 2px 70px;
   text-transform: capitalize;
 }
 .paginator .current {
@@ -596,7 +596,7 @@ position: relative;
   background-color: #d5d5d5;
   border-radius: 1px;
 }
-.border-logo::after:last-child {
+.border-logo:last-child::after {
   display: none;
 }
 .img-map {
