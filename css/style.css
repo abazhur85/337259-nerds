@@ -541,12 +541,12 @@ height: 530px;
 }
 .description-left ul {
 list-style: none;
-margin: 0;
 padding: 0;
 }
 .orders li {
   margin-bottom: 32px;
   position: relative;
+  margin-left: 30px;
 }
 .orders li::before {
   content: " ";
@@ -554,6 +554,8 @@ padding: 0;
   right: 20px;
   width: 25px;
   height: 3px;
+  left: -30px;
+	top: 7px;
   background-color: #fb565a;
 }
 .description-right {
