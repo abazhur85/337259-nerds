@@ -89,6 +89,17 @@ h3 {
   color: #000000;
   vertical-align: middle;
 }
+.shop {
+  position: relative;
+}
+.shop::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  top: 15px;
+  background-color: #fb565a;
+}
 .shopping-bag {
   float: right;
   height: 115px;
@@ -530,6 +541,20 @@ height: 530px;
 }
 .description-left ul {
 list-style: none;
+margin: 0;
+padding: 0;
+}
+.orders li {
+  margin-bottom: 32px;
+  position: relative;
+}
+.orders li::before {
+  content: " ";
+  position: absolute;
+  right: 20px;
+  width: 25px;
+  height: 3px;
+  background-color: #fb565a;
 }
 .description-right {
   float: right;
@@ -561,7 +586,8 @@ position: relative;
 .border-logo::after {
   content: " ";
   position: absolute;
-  right: 50px;
+  right: -50px;
+  top: 20px;
   width: 2px;
   height: 55px;
   background-color: #d5d5d5;
